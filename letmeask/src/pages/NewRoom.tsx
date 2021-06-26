@@ -1,7 +1,6 @@
 import { Link } from 'react-router-dom';
 import illustrationImg from '../assets/images/illustration.svg';
 import logoImg from '../assets/images/logo.svg';
-import googleImg from '../assets/images/google-icon.svg';
 
 import { Button } from '../components/Button';
 import '../styles/auth.scss';
@@ -12,7 +11,7 @@ export function NewRoom() {
       <aside>
         <img src={illustrationImg} alt='illustration for Q&A' />
         <strong>Crie salas de Q&ampA; ao-vivo</strong>
-        <p>Tire as dúvidas da sua audiência em tmepo-real</p>
+        <p>Tire as dúvidas da sua audiência em tempo-real</p>
       </aside>
       <main>
         <div className='main-content'>
